@@ -1,4 +1,4 @@
-import {strLength, reverseString, BasicMath} from "./strLength";
+import {strLength, reverseString, BasicMath, capitalize} from "./strLength";
 
 test('Counting string length positive number', () => {
   expect(strLength('hello')).toBe(5);
@@ -70,5 +70,19 @@ describe('Basic Math di method', () => {
   })
   test('Add positive and negative', () => {
     expect(math.div(-2,1)).toBe(-2);
+  })
+})
+
+//Capitalize function test TDD
+
+describe('Capitalize function test', () => {
+  test('capitalize with short word', () => {
+    expect(capitalize("hello")).toBe('Hello');
+  })
+  test('capitalize empty string', () => {
+    expect(capitalize('')).toBe('');
+  })
+  test('capitalize all capital lettes', () => {
+    expect(capitalize('HELLO')).toBe('Hello');
   })
 })
