@@ -1,0 +1,25 @@
+{
+  "name": "jest-exercise",
+  "version": "1.0.0",
+  "description": "Wrting different test for functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getssh/jest-exercise.git"
+  },
+  "author": "Getayawkal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getssh/jest-exercise/issues"
+  },
+  "homepage": "https://github.com/getssh/jest-exercise#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.4.3",
+    "jest": "^29.4.3"
+  }
+}
